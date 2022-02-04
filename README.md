@@ -1,6 +1,6 @@
 # sqflite_test
 
-A new Flutter project.
+A new Flutter project for test sqflite in app and save data into database.
 
 ## Getting Started
 
