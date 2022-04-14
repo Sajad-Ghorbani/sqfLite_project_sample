@@ -64,11 +64,17 @@ class _MyHomePageState extends State<MyHomePage> {
                 labelText: 'Insert name',
               ),
             ),
+            const SizedBox(
+              height: 20,
+            ),
             TextField(
               controller: ageController,
               decoration: const InputDecoration(
                 labelText: 'Insert age',
               ),
+            ),
+            const SizedBox(
+              height: 20,
             ),
             ElevatedButton(
               child: const Text(
@@ -76,6 +82,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: TextStyle(fontSize: 20),
               ),
               onPressed: _insert,
+            ),
+            const SizedBox(
+              height: 20,
             ),
             ElevatedButton(
               child: const Text(
